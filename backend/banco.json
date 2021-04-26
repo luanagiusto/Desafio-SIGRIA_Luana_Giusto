@@ -1,0 +1,70 @@
+{
+  "dados": [
+    {
+      "id": 1,
+      "nome": " ",
+      "cpf": " ",
+      "telefone": " ",
+      "email": " ",
+      "senha": " ",
+      "emailCad": " ",
+      "senhaCad": " "
+    },
+    {
+      "nome": "Jully",
+      "emailCad": "juju@gmail.com",
+      "cpf": 12345678980,
+      "telefone": "(12) 95479-1468",
+      "senhaCad": "gugubeleza",
+      "senhaCad2": "gugubeleza",
+      "id": 2
+    },
+    {
+      "nome": "Clotilde",
+      "emailCad": "cloclo@gmail.com",
+      "cpf": 12345678971,
+      "telefone": "25 9 8854-8745",
+      "senhaCad": "123happy",
+      "senhaCad2": "123happy",
+      "id": 3
+    },
+    {
+      "id": 5,
+      "nome": " Tildinha",
+      "cpf": " 25412541236 ",
+      "telefone": " 35 9 5544-2211 ",
+      "email": " tildinha@gmail.com ",
+      "senha": " 254125 ",
+      "emailCad": "tildinha@gmail.com ",
+      "senhaCad": " 254125 "
+    },
+    {
+      "id": 4,
+      "nome": " Tildinha",
+      "cpf": " 25412541236 ",
+      "telefone": " 35 9 5544-4578 ",
+      "email": " tildinha@gmail.com ",
+      "senha": " 254125 ",
+      "emailCad": "tildinha@gmail.com ",
+      "senhaCad": " 254125 "
+    },
+    {
+      "senhaCad": "1212121",
+      "senhaCad2": "1212121",
+      "nome": "Teste confirmaçao de senha",
+      "emailCad": "senha@gmail.com",
+      "cpf": 124512451236,
+      "telefone": "35988778877",
+      "id": 6
+    },
+    {
+      "nome": "Teste confirmaçao de senha",
+      "emailCad": "senha@gmail.com",
+      "cpf": 12345678977,
+      "telefone": "35988778844",
+      "senhaCad": "121245",
+      "senhaCad2": "121245",
+      "id": 7
+    }
+  ]
+}
