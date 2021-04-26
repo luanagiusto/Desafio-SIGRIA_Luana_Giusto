@@ -1,0 +1,57 @@
+<div class="content">
+
+
+  <!--FORMULÁRIO DE LOGIN-->
+
+  <div id="login">
+    <form >
+      <h1>Login</h1>
+
+      <p>
+      <label for="emailLogin">Endereço de e-mail</label>
+      <input type="email" class="validate" id="emailLogin" name="emailLogin"
+       required="required" aria-describedby="emailHelp" placeholder="seunome@email.com"
+        [(ngModel)]='usuario.login'></p>
+
+      <p>
+        <label for="senhaLogin">Senha</label>
+      <input type="password" class="validate" id="senhaLogin" name="senhaLogin"
+       required="required" placeholder="Senha" maxlength=7 [(ngModel)]='usuario.senha'></p>
+
+
+
+      <p >
+        <input type="checkbox" name="manterlogado" id="manterlogado" value="" />
+        <label class="caixa" for="manterlogado"> Manter-me logado</label>
+      </p>
+
+
+    <p>
+    <button type="submit" name="action" class="btn btn-outline-dark btn-block"
+     (click)="fazerlogin()">Login</button>
+    </p>
+
+
+    <div class="link">
+      Ainda não tem conta?
+     <button class="btn btn-outline-dark" routerLink='/cadastro'>Cadastre-se</button>
+    </div>
+
+
+  </form>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

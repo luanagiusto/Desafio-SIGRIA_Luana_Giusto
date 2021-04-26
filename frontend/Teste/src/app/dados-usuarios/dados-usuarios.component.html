@@ -1,0 +1,38 @@
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+
+  <h1 class="mt-5 mb-5 text-center">Dados dos usuários cadastrados</h1>
+
+
+  <form>
+
+        <div class="card mb-4" *ngFor="let cadastro of listaUsersCadastrados">
+                <div class="card-header">
+                  <h5 class="card-tile">{{cadastro.id}}</h5>
+                </div>
+                  <div class="card-body">
+                    <p class="card-text"><strong>Nome Completo: </strong>{{cadastro.nome}</p>
+                    <p class="card-text"><strong>CPF: </strong>{{cadastro.cpf}}</p>
+                    <p class="card-text"><strong>Telefone: </strong>{{cadastro.telefone}}</p>
+                    <p class="card-text"><strong>E-mail: </strong>{{cadastro.emailCad}}</p>
+                    <p class="card-text"><strong>Senha: </strong>{{cadastro.senhaCad</p>
+
+                  </div>
+          </div>
+
+
+  </form>
+
+  </div>
+
+
+

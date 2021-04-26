@@ -1,0 +1,62 @@
+<div class="content">
+
+
+  <!--FORMULÁRIO DE CADASRO-->
+  <div id="cadastro">
+    <form method="post" action="">
+      <h1>Cadastro</h1>
+
+
+    <div class="form-group">
+      <label for="nomeCadastro">Nome Completo</label>
+        <input type="text" class="form-control" id="nomeCadastro" name="nomeCadastro"
+         required="required" placeholder="Seu nome completo" [(ngModel)]='cadastro.nome'>
+
+        <label for="emailCadastro">Endereço de e-mail</label>
+        <input type="email" class="form-control" id="emailCadastro" name="emailCadastro"
+         required="required" placeholder="seunome@email.com" [(ngModel)]='cadastro.emailCad'>
+
+
+        <div class="form-row">
+
+
+            <div class="form-group col-md-6">
+              <label for="cpf">CPF</label>
+              <input type="text" class="form-control" id="cpf" name="cpf" 
+               placeholder="Somente números" maxlength="11" [(ngModel)]='cadastro.cpf'>
+               </div>
+
+            <div class="form-group col-md-6">
+              <label for="telefone">Telefone</label>
+              <input type="phone" class="form-control" id="telefone" name="telefone"
+               placeholder="(xx) xxxxx-xxxx" [(ngModel)]='cadastro.telefone'></div>
+
+
+            <div class="form-group col-md-6">
+              <label for="senhaCadastro">Senha</label>
+              <input type="password" class="form-control" id="senhaCadastro" name="senhaCadastro"
+              required="required" placeholder="Senha" maxlength=7 [(ngModel)]='cadastro.senhaCad'></div>
+
+            <div class="form-group col-md-6">
+              <label for="senhaCadastro2">Confirme sua senha</label>
+              <input type="password" class="form-control" id="senhaCadastro2" name="senhaCadastro2"
+              required="required" placeholder="Confirme sua senha" maxlength=7 [(ngModel)]='cadastro.senhaCad2'>
+              <span *ngIf="cadastro.senhaCad != cadastro.senhaCad2" class="error"> Campos devem ser iguais!!! </span>
+      </div>
+        </div>
+      </div>
+
+  <p> </p>
+      <p>
+        <button type="submit" value="Cadastrar" class="btn btn-outline-dark btn-block" (click)="cadastrarUser()">Cadastrar</button>
+      </p>
+
+
+    <div class="link">
+      Já tem conta?
+     <button class="btn btn-outline-dark" routerLink='/login'>Ir para Login</button>
+    </div>
+
+    </form>
+  </div></div>
+
